@@ -12,6 +12,8 @@ TL;DR : Exploiting a Python De-Serialization leading to an RCE thanks To yaml/Py
 
 This is the main challenge page "adminer loader" with a data submission form.
 
+ ![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/loadder_x.gif?token=GHSAT0AAAAAABTT5PBKXFRB2D3HCN5AH6JMYS6DYIA)
+
 
 
 
