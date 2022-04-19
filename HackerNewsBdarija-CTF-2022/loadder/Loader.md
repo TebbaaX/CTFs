@@ -23,6 +23,8 @@ as you can see! you simply submit an input text and it get reflected/alerted.
 
 looking under the hood we have this interesting js script that actually posts data on `api/load`, and after posting it! it gets alerted.
 
+ ![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/magic_behind.PNG?token=GHSAT0AAAAAABTT5PBLQKOWFT3YEZU5CLYGYS6DZBQ)
+
 one more interesting thing is the `btoa()` js function that converts the input string to an base64. confirmed by intercepting the request on burp as shown.
 the response also show an interesting server header indicating that this runs on py.
 
