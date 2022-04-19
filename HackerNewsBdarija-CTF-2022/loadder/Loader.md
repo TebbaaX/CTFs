@@ -28,6 +28,7 @@ looking under the hood we have this interesting js script that actually posts da
 one more interesting thing is the `btoa()` js function that converts the input string to an base64. confirmed by intercepting the request on burp as shown.
 the response also show an interesting server header indicating that this runs on py.
 
+ ![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/burp_2.PNG?token=GHSAT0AAAAAABTT5PBKYKRVP6QCZJV6PTIIYS6D2OQ)
 
 Challenge hint mentioned a data format used by SOC Team leads and Threat hunters, after some time it was obviously yaml.
 
