@@ -1,0 +1,4 @@
+https://www.exploit-db.com/docs/english/47655-yaml-deserialization-attack-in-python.pdf
+https://book.hacktricks.xyz/pentesting-web/deserialization/python-yaml-deserialization#vulnerable-.load-less-than-content-greater-than-without-loader
+https://cheatsheetseries.owasp.org/cheatsheets/Deserialization_Cheat_Sheet.html
+https://medium.com/swlh/hacking-python-applications-5d4cd541b3f1
