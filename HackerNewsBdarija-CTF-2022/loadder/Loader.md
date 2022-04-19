@@ -45,10 +45,7 @@ checkup payload looked like this :
 
 simple `!!python/object/new:tuple` to initiate a tuple since were running on YAML...,  `map()` to serve both the function and the iterable that will be "mapped" and `eval()` to check the legality of the python statement... and you know 1+1 :) .
 
-
-
-
-
+![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/2pic.PNG?token=GHSAT0AAAAAABTT5PBLCZN7BLXBWBDRYV2WYS6D3WQ)
 
 seems like we are in the correct direction!
 
@@ -58,6 +55,8 @@ The second payload we did call python and tried to get at least the built-in pyt
 > `!!python/object/new:tuple [!!python/object/new:map [!!python/name:eval , [ "__import__('os').system('id')" ]]]`
 
 Returned with the `os.system()` encoded exit value 0 that means success! well, that's great.
+
+![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/0.PNG?token=GHSAT0AAAAAABTT5PBKC4EECREKBIC4SE56YS6D44Q)
 
 The last constructed payload is to get a bash rev shell
 
@@ -70,6 +69,8 @@ the final payload looks like this :
 
 and...
 
+
+![gif here](https://raw.githubusercontent.com/TebbaaX/CTFs/main/HackerNewsBdarija-CTF-2022/loadder/loader/sweet.PNG?token=GHSAT0AAAAAABTT5PBLFAR3AI75T44PH4CSYS6D5XQ)
 
 
 
