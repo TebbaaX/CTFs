@@ -1,2 +1,2 @@
 # CTFs
-bunch of CTF Writeups and maybe resources and Papers
+Bunch of CTFs i played Writeups and maybe Resources and Papers (CTFs, HTB, THM...)
